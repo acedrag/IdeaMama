@@ -2,9 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+    <script src="scripts/jquery-3.0.0.min.js"></script>
 </head>
 <body>
-
+<header>
+    <a href="#" id="linkHome">Home</a>
+    <a href="#" id="linkLogin">Login</a>
+    <a href="#" id="linkRegister">Register</a>
+    <a href="#" id="linkListPosts">List Posts</a>
+    <a href="#" id="linkCreatePost">Create Post</a>
+    <a href="#" id="linkLogout">Logout</a>
+</header>
+<main>
+    <section id="loadingBox">Loading...</section>
+    <section id="infoBox" onclick='$(this).fadeOut()'>Info</section>
+    <section id="errorBox" onclick='$(this).fadeOut()'>Error</section>
+    <section id="viewHome">
+    </section>
+    <section id="viewLogin">
+        <h1>Please Login</h1>
+        <form id="formLogin">
+            <div>Username:</div>
+            <div><input type="text" id="loginUser" required /></div>
+            <div>Password</div>
+            <div><input type="password" id="loginPass" required /></div>
+            <div><input type="submit" value="Login" /></div>
+        </form>
+    </section>
+    <section id="viewRegister">
+        <h1>Please Register here</h1>
+        <form id="formRegister">
+            <div>Username:</div>
+            <div><input type="text" id="registerUser" required="true" /></div>
+            <div>Password</div>
+            <div><input type="password" id="registerPass" required="true" /></div>
+            <div><input type="submit" value="Register" /></div>
+        </form>
+    </section>
+    <section id="viewPosts">
+        <h1>Posts</h1>
+        <div id="posts" />
+    </section>
+    <section id="viewCreatePost">
+        <h1>Create new post</h1>
+        <form id="formCreatePost">
+            <div>Title:</div>
+            <div><input type="text" id="postTitle" required /></div>
+            <div>Author:</div>
+            <div><input type="text" id="postAuthor" required /></div>
+            <div>Description:</div>
+            <div><textarea id="postDescription" rows="10" required></textarea></div>
+            <div><input type="submit" value="Create" /></div>
+        </form>
+    </section>
+</main>
+<footer>Идея мама - Блог</footer>
 </body>
 </html>
