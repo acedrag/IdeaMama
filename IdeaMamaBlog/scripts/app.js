@@ -3,7 +3,7 @@
     let baseUrl = "https://baas.kinvey.com";
     let appKey = "kid_SyhXts65";
     let appSecret = "b0798fc56e85490cbe024efdc1f4efb6";
-    var _guestCredentials = "YWNlZHJhZ2Fub3ZAZ21haWwuY29tOkVnd2lpbl9BbHdpaXIx";
+    var _guestCredentials = "0f7dd08d-72b2-40fb-b2c3-e34144c6f22a.pf6LKJBN1t8PAdCeT8dHnpRSOnScAcO+pXi+GqIO0YE=";
 
 
 
@@ -17,7 +17,14 @@
     let requester = new Requester(authService);
 
     let homeView = new HomeView(selector, mainContentSelector);
-    homeView.showGuestPage();
+    let homeController = new HomeController(homeView, requester, baseUrl, appKey);
+
+    let userView = new UserView(selector, mainContentSelector);
+    let userController = new UserController(userView, requester, baseUrl, appKey);
+    
+
+
+
 
     // Create HomeView, HomeController, UserView, UserController, PostView and PostController
 

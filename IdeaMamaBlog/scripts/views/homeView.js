@@ -21,7 +21,7 @@ class HomeView{
             });
             $.get('templates/posts.html',function(template){
                 let blogPosts = {
-                    resentPosts: mainData
+                    blogPosts: mainData
                 };
 
                 let renderedPosts = Mustache.render(template, blogPosts);
@@ -49,7 +49,7 @@ class HomeView{
             });
             $.get('templates/posts.html',function(template){
                 let blogPosts = {
-                    resentPosts: mainData
+                    blogPosts: mainData
                 };
 
                 let renderedPosts = Mustache.render(template, blogPosts);
