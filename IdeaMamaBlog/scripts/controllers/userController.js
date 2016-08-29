@@ -3,7 +3,7 @@ class UserController{
         this._userView = userView;
         this._requester = requester;
         this._appKey = appKey;
-        this._baseServiceUrl = baseUrl + "/user" + appKey + "/";
+        this._baseServiceUrl = baseUrl + "/user/" + appKey + "/";
     }
 
     showLoginPage(isLoggedIn){
