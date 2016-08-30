@@ -23,7 +23,7 @@ class PostView {
                 var renderedContent = Mustache.render(template, null);
                 $(_that._mainContentSelector).html(renderedContent);
 
-                $('#author').val(data.fullName);
+                $('#author').val(data.fullname);
 
                 $('#create-new-post-request-button').on('click', function (ev) {
                     let title = $('#title').val();

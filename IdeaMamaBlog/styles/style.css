@@ -182,14 +182,14 @@ header {
     color: #565656;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 8px solid #019c8c;
+    border-bottom: 8px solid #c02902;
 }
 
 .sidebar {
     float: left;
     width: 20%;
     height: 100%;
-    background-color: #06C0AB;
+    background-color: #c00807;
     color: white;
     font: 32px Lato;
     font-weight: 100;
@@ -227,7 +227,7 @@ header {
 
 .single-menu-element:hover {
     font-weight: 900;
-    background-color: #019c8c;
+    background-color: #c02902;
     height: 40px;
     line-height: 32px;
     transition: background 0.7s ease, padding 0.5s linear;
@@ -274,8 +274,8 @@ footer {
     left: 45%;
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #06C0AB;
-    border-bottom: 16px solid #06C0AB;
+    border-top: 16px solid #c00807;
+    border-bottom: 16px solid #c00807;
     width: 120px;
     height: 120px;
     -webkit-animation: first-spin 4s linear infinite;
@@ -285,8 +285,8 @@ footer {
 #loader-2 {
     border: 10px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 10px solid #06C0AB;
-    border-bottom: 10px solid #06C0AB;
+    border-top: 10px solid #c00807;
+    border-bottom: 10px solid #c00807;
     width: 100px;
     height: 100px;
     -webkit-animation: second-spin 4s linear infinite;
@@ -296,8 +296,8 @@ footer {
 #loader-3 {
     border: 10px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 10px solid #06C0AB;
-    border-bottom: 10px solid #06C0AB;
+    border-top: 10px solid #c00807;
+    border-bottom: 10px solid #c00807;
     width: 80px;
     height: 80px;
     -webkit-animation: second-spin 4s linear infinite;
@@ -307,8 +307,8 @@ footer {
 #loader-4 {
     border: 10px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 10px solid #06C0AB;
-    border-bottom: 10px solid #06C0AB;
+    border-top: 10px solid #c00807;
+    border-bottom: 10px solid #c00807;
     width: 60px;
     height: 60px;
     -webkit-animation: second-spin 4s linear infinite;
@@ -318,8 +318,8 @@ footer {
 #loader-5 {
     border: 10px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 10px solid #06C0AB;
-    border-bottom: 10px solid #06C0AB;
+    border-top: 10px solid #c00807;
+    border-bottom: 10px solid #c00807;
     width: 40px;
     height: 40px;
     -webkit-animation: second-spin 4s linear infinite;
