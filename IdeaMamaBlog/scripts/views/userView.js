@@ -64,13 +64,13 @@ class UserView{
                     let username = $('#username').val();
                     let password = $('#password').val();
                     let confirmPassword = $('#pass-confirm').val();
-                    let fullName = $('#full-name').val();
+                    let fullname = $('#full-name').val();
 
                     let data = {
                         username: username,
                         password: password,
                         confirmPassword: confirmPassword,
-                        fullName: fullName};
+                        fullname: fullname};
 
                     triggerEvent('register', data);
                 });

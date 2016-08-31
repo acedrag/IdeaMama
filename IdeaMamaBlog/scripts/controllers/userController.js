@@ -35,7 +35,7 @@ class UserController{
             showPopup('error', "Username must contain at least 5 symbols.");
             return;
         }
-        if(requestData.fullName.length < 8) {
+        if(requestData.fullname.length < 8) {
             showPopup('error', "Full name must consist of at least 8 symbols.");
             return;
         }

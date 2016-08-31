@@ -17,7 +17,7 @@ class PostController {
         if(requestData.content.length < 50){
             showPopup('error', "Post content must consist of at least 50 symbols.");
         }
-
+        
         let requestUrl = this._baseServiceUrl;
 
         this._requester.post(requestUrl, requestData,
@@ -29,4 +29,5 @@ class PostController {
                 showPopup('error', "An error has occurred while attempting to create a new post.");
             });
     }
+    
 }
